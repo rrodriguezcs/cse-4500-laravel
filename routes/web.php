@@ -42,5 +42,11 @@ Route::get('/db-migrate', function () {
     Artisan::call('migrate');
     echo Artisan::output();
 });
+
+Route::get('/events-feed', function () {
+    Artisan::call('migrate');
+    echo Artisan::output();
+});
+
 URL::forceScheme('https');
 //testing
