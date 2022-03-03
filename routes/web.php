@@ -21,7 +21,7 @@ Route::get('/todos', function () {
     return view('todos');
 });
 
-Route::get('/calendar', function () {
+Route::get('/schedule', function () {
     return view('calendar');
 });
          
