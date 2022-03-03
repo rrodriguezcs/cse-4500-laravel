@@ -44,8 +44,7 @@ Route::get('/db-migrate', function () {
 });
 
 Route::get('/events-feed', function () {
-    Artisan::call('migrate');
-    echo Artisan::output();
+    return view('events-feed');
 });
 
 URL::forceScheme('https');
