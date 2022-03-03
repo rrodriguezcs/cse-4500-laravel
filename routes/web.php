@@ -13,10 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-}
-           
+         
 Route::get('/db-test', function () {
     try {
         \DB::connection()->getPDO();
@@ -26,9 +23,11 @@ Route::get('/db-test', function () {
         echo 'None';
     }
 }
+);
 Route::get('/db-migrate', function () {
     Artisan::call('migrate');
     echo Artisan::output();
 }
 );
 URL::forceScheme('https');
+//testing
