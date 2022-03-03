@@ -31,35 +31,35 @@
         <div class="custom-control custom-checkbox">
             <input class="custom-control-input" type="checkbox" id="customCheckbox1" disabled>
             <label for="customCheckbox1" class="custom-control-label">
-                "Bug"
+                Bug
             </label>
         </div>
 
         <div class ="custom-control custom-checkbox">
             <input class="custom-control-input" type="checkbox" id="customCheckbox2" disabled>
             <label for="customCheckbox2" class="custom-control-label">
-                "Feature"
+                Feature
             </label>
         </div> 
 
         <div class ="custom-control custom-checkbox">
             <input class="custom-control-input" type="checkbox" id="customCheckbox3" disabled>
             <label for="customCheckbox3" class="custom-control-label">
-                "Enhancement"
+                Enhancement
             </label>
         </div> 
 
         <div class ="custom-control custom-checkbox">
             <input class="custom-control-input" type="checkbox" id="customCheckbox4" disabled>
             <label for="customCheckbox4" class="custom-control-label">
-                "Documentation"
+                Documentation
             </label>
         </div> 
 
         <div class ="custom-control custom-checkbox">
             <input class="custom-control-input" type="checkbox" id="customCheckbox5" disabled>
             <label for="customCheckbox5" class="custom-control-label">
-                "Examples"
+                Examples
             </label>
         </div> 
     </div>
@@ -80,13 +80,13 @@
     <div class="custom-control custom-checkbox">
         <input class="custom-control-input" type="checkbox" id="customCheckbox1_1" disabled>
         <label for="customCheckbox1_1" class="custom-control-label">
-            "Bug Report"
+            Bug Report
         </label>
     </div>
 <div class="custom-control custom-checkbox">
     <input class="custom-control-input" type="checkbox" id="customCheckbox1_2" disabled>
     <label for="customCheckbox1_2" class="custom-control-label">
-        "Feature Request"
+        Feature Request
     </label>
 </div>
 </div>
