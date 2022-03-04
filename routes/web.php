@@ -59,7 +59,7 @@ Route::get('/events-feed', function () {
 });
 
 Route::fallback(function () {
-    //
+    return view('404');
 });
 
 URL::forceScheme('https');
