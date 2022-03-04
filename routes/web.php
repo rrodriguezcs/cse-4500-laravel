@@ -58,6 +58,9 @@ Route::get('/events-feed', function () {
       ]';
 });
 
+Route::fallback(function () {
+    //
+});
 
 URL::forceScheme('https');
 //testing
