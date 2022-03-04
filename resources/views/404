@@ -1,9 +1,9 @@
 @extends('adminlte::page')
 
-@section('title', 'title')
+@section('title', '404 Page')
 
 @section('content_header')
-    <h1>Header</h1>
+    <h1>404</h1>
 @stop
 
 @section('content')
@@ -37,10 +37,6 @@ Meanwhile, you may <a href="/">return to dashboard</a> or try using the search f
 </div>
         </div>
     </div>
-@stop
-
-@section('css')
-    <link rel="stylesheet" href="/css/admin_custom.css">
 @stop
 
 @section('js')
