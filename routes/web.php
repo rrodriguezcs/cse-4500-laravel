@@ -63,4 +63,12 @@ Route::fallback(function () {
     return view('404');
 });
 
+Route::get('/db-test', function () {
+    try {         
+         echo \DB::connection()->getDatabaseName();     
+    } catch (\Exception $e) {
+          echo 'None';
+    }
+});
+
 URL::forceScheme('https');
