@@ -7,7 +7,6 @@
 @stop
 
 @section('content')
-<a href="{{ route('eventsfeed.create') }} " class="btn btn-primary" >Create</a>
 <div class="row">
   <div class="col-md-12">
     <div class="card card-primary">
