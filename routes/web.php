@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\TodoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -70,5 +71,9 @@ Route::get('/db-test', function () {
           echo 'None';
     }
 });
+
+Route::resource('/todos', TodoController::class);
+
+
 
 URL::forceScheme('https');
