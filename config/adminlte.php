@@ -232,22 +232,17 @@ return [
     [
         'text' => 'Invoices',
         'url'  => 'invoice',
-        'icon' => 'far fa-list-alt',
+        'icon' => 'fas fa-fw fa-file',
     ],
     [         
         'text' => 'Customers',
         'url'  => 'customer',
-        'icon' => 'far fa-user-circle',
+        'icon' => 'fas fa-fw fa-calendar-alt',
     ],
      [         
         'text' => 'Equipment',
         'url'  => 'equipment',
-        'icon' => 'far fa-hdd',
-    ],
-    [         
-        'text' => 'Notes',
-        'url'  => 'notes',
-        'icon' => 'far fa-clipboard',
+        'icon' => 'fas fa-fw fa-border-all',
     ],
 ],
 
