@@ -230,19 +230,24 @@ return [
         'text' => 'search',
     ],     
     [
-        'text' => 'To Do\'s',
-        'url'  => 'todos',
-        'icon' => 'fas fa-fw fa-file',
+        'text' => 'Invoices',
+        'url'  => 'invoice',
+        'icon' => 'far fa-list-alt',
     ],
     [         
-        'text' => 'Calendar',
-        'url'  => 'calendar',
-        'icon' => 'fas fa-fw fa-calendar-alt',
+        'text' => 'Customers',
+        'url'  => 'customer',
+        'icon' => 'far fa-user-circle',
     ],
      [         
-        'text' => 'Board',
-        'url'  => 'board',
-        'icon' => 'fas fa-fw fa-border-all',
+        'text' => 'Equipment',
+        'url'  => 'equipment',
+        'icon' => 'far fa-hdd',
+    ],
+    [         
+        'text' => 'Notes',
+        'url'  => 'notes',
+        'icon' => 'far fa-clipboard',
     ],
 ],
 
